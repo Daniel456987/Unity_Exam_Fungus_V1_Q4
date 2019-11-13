@@ -372,6 +372,7 @@ GameObject:
   - component: {fileID: 1288952025}
   - component: {fileID: 1288952028}
   - component: {fileID: 1288952027}
+  - component: {fileID: 1288952029}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -419,7 +420,7 @@ MonoBehaviour:
   easeType: 2
   loopType: 0
   stopPreviousTweens: 0
-  waitUntilFinished: 1
+  waitUntilFinished: 0
   targetObjectOLD: {fileID: 0}
   tweenNameOLD: 
   durationOLD: 0
@@ -614,6 +615,7 @@ MonoBehaviour:
   - {fileID: 1288952017}
   - {fileID: 1288952016}
   - {fileID: 1288952015}
+  - {fileID: 1288952029}
   - {fileID: 1288952026}
   - {fileID: 1288952025}
   - {fileID: 1288952028}
@@ -685,7 +687,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 1288952020}
   selectedCommands:
-  - {fileID: 1288952027}
+  - {fileID: 1288952029}
   variables:
   - {fileID: 1288952018}
   description: 
@@ -896,6 +898,40 @@ MonoBehaviour:
   vector3Data:
     vector3Ref: {fileID: 0}
     vector3Val: {x: 0, y: 0, z: 0}
+--- !u!114 &1288952029
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1288952013}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4998e756a5d84f4ab55e075dad751b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 10
+  indentLevel: 1
+  _targetObject:
+    gameObjectRef: {fileID: 0}
+    gameObjectVal: {fileID: 1363458502}
+  _tweenName:
+    stringRef: {fileID: 0}
+    stringVal: 
+  _duration:
+    floatRef: {fileID: 0}
+    floatVal: 1
+  easeType: 2
+  loopType: 0
+  stopPreviousTweens: 0
+  waitUntilFinished: 0
+  targetObjectOLD: {fileID: 0}
+  tweenNameOLD: 
+  durationOLD: 0
+  _offset:
+    vector3Ref: {fileID: 0}
+    vector3Val: {x: 2, y: 2, z: 2}
+  offsetOLD: {x: 0, y: 0, z: 0}
 --- !u!1 &1363458502
 GameObject:
   m_ObjectHideFlags: 0
